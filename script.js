@@ -10,13 +10,6 @@ add.addEventListener('click', () => {
 });
 
 
-// window.addEventListener('load', () => {
-//   if(localStorage.getItem('storeddata')) {
-//   setValue();
-//   }
-
-// });
-
 
 const bookArray = [];
 
