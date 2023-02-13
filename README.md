@@ -30,8 +30,6 @@ After you're finished please remove all the comments and instructions!
   <h1><b>AWESOME BOOKS AMANUEL AND ISAAC</b></h1>
   <br/>
 
- 
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -62,15 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Awesome Books]** is a simple that adds  or removes books.
+**[Awesome Books]** is a simple that adds or removes books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -97,8 +91,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Add book ]**
 - **[Store book in local storage]**
 - **[Delete book]**
@@ -107,15 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-
-
-
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -123,7 +109,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
- Git and Code editor.
+Git and Code editor.
+
 <!--
 Example command:
 
@@ -137,6 +124,7 @@ Example command:
 Clone this repository to your desired folder:
 
 git clone https://github.com/amanuelbelete95/awesome-books.git
+
 <!--
 Example commands:
 
@@ -153,7 +141,6 @@ http server:
 
 npm install http-server -g
 http-server
-
 
 <!--
 Example command:
@@ -196,6 +183,7 @@ Example command:
 You can deploy this project using:
 
 github pages.
+
 <!--
 Example:
 
@@ -210,27 +198,23 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 Isaac Gakure Wanyoike
 
-👤  Isaac Gakure Wanyoike
+- GitHub: [@githubhandle](https://github.com/gaks1)
+- Twitter: [@twitterhandle](https://twitter.com/bopplov)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/isaac-wanyoike-1841a8172/)
 
- - GitHub: [@githubhandle](https://github.com/gaks1)
- - Twitter: [@twitterhandle](https://twitter.com/bopplov)
--  LinkedIn: [LinkedIn](https://www.linkedin.com/in/isaac-wanyoike-1841a8172/)
+👤 **Amanuel Belete**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@amanuelbelete95](https://github.com/amanuelbelete95)
+- Twitter: [@AmanuelBelete11](https://twitter.com/AmanuelBelete11)
+- LinkedIn: [Amanuel Belete](https://www.linkedin.com/in/amanuel-belete-292994194/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[full website]**
 
@@ -250,8 +234,6 @@ Feel free to check the [issues page](https://github.com/amanuelbelete95/awesome-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project kindly star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -260,20 +242,14 @@ If you like this project kindly star it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 We would like to thank microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
