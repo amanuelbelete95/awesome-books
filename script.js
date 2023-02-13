@@ -3,7 +3,6 @@ const author = document.querySelector('#author');
 const add = document.querySelector('#add-btn');
 const bookContainer = document.querySelector('.book-container');
 
-
 function setValue() {
   const currentstoreddata = localStorage.getItem('storeddata');
   const parseddata = JSON.parse(currentstoreddata);
@@ -34,7 +33,6 @@ function setValue() {
   }
 }
 
-
 function populateStorage() {
   const currentstoreddata = localStorage.getItem('storeddata');
   const bookArray = JSON.parse(currentstoreddata);
@@ -51,8 +49,6 @@ function populateStorage() {
   bookContainer.innerHTML = '';
   setValue();
 }
-
-
 
 add.addEventListener('click', () => {
   populateStorage();
