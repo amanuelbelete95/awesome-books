@@ -33,9 +33,9 @@ function setValue(parseddata) {
 function populateStorage() {
   let bookArray = [];
   if (localStorage.getItem('storeddata')) {
-  const bookArrayString1 = localStorage.getItem('storeddata');
+    const bookArrayString1 = localStorage.getItem('storeddata');
 
-   bookArray = JSON.parse(bookArrayString1);
+    bookArray = JSON.parse(bookArrayString1);
   }
   const bookData = {};
   bookData.book = titleInput.value;
