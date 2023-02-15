@@ -60,7 +60,8 @@ header {
 
 footer {
   width: 90%;
-  margin: 50px auto;
+  margin-top: 50px;
+  margin-left: 5%;
   border: 5px solid black;
   padding: 0 20px;
 }
