@@ -83,6 +83,8 @@ After you're finished please remove all the comments and instructions!
 - **[Add book ]**
 - **[Store book in local storage]**
 - **[Delete book]**
+- **[contact information]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,7 +207,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[full website]**
+- **[fix bugs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
