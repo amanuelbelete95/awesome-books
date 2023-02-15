@@ -4,6 +4,11 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+section{
+width: 80%;
+margin: 0 auto;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,17 +16,25 @@ body {
   align-items: center;
 }
 
+.list-books{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.book-container {
+  width: 100%;
+  border: 2px solid black;
+}
+
 .book {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
-  padding: 0 5px;
-}
-
-.book-container {
-  border: 2px solid black;
-  margin: 50px;
+  width: 96%;
+  padding: 0 2%;
 }
 
 .separator {
@@ -37,4 +50,66 @@ body {
 .button-cont {
   display: flex;
   justify-content: flex-end;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px;
+  
+}
+
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.date{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#date{
+  margin: 0;
 }
