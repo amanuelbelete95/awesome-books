@@ -53,7 +53,7 @@ section {
   justify-content: flex-end;
 }
 
-header{
+header {
   width: 90%;
   margin: 0 auto;
 }
@@ -130,7 +130,7 @@ input {
   font-size: 21px;
 }
 
-p{
+p {
   font-size: 21px;
 }
 
@@ -150,7 +150,6 @@ h2 {
   font-size: 18px;
 }
 
-.nav-list{
+.nav-list {
   color: blue;
 }
-
