@@ -4,9 +4,9 @@ body {
   font-family: "EB Garamond", serif;
 }
 
-section{
-width: 80%;
-margin: 0 auto;
+section {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .container {
@@ -16,7 +16,7 @@ margin: 0 auto;
   align-items: center;
 }
 
-.list-books{
+.list-books {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,16 +52,15 @@ margin: 0 auto;
   justify-content: flex-end;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 0 5px;
-  
 }
 
- nav ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +78,11 @@ nav a {
   color: black;
 }
 
-.date{
+a:hover {
+  color: green;
+}
+
+.date {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -87,29 +90,29 @@ nav a {
   padding: 0 5px;
 }
 
-.form{
-  display: flex;
+.form {
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.contact{
-  display: flex;
+.contact {
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-input{
+input {
   width: 300px;
   padding: 10px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
-#date{
+#date {
   margin: 0;
 }
