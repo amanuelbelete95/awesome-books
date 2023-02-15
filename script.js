@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -32,21 +33,17 @@ const add = document.querySelector('#add-btn');
 const bookContainer = document.querySelector('.book-container');
 
 function setValue(library) {
-  const bookElements = library.books.map((book, i) => {
+  const bookElements = library.books.map((book) => {
     const bookElement = document.createElement('div');
     bookElement.classList.add('book');
 
-    const titleElement = document.createElement('p');
-    titleElement.textContent = book.title;
-
-    const authorElement = document.createElement('p');
-    authorElement.textContent = book.author;
+    const thebook = document.createElement('p');
+    thebook.textContent = `"${book.title}" by ${book.author}`;
 
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
 
-    bookElement.appendChild(titleElement);
-    bookElement.appendChild(authorElement);
+    bookElement.appendChild(thebook);
     bookElement.appendChild(removeBtn);
 
     removeBtn.addEventListener('click', () => {
@@ -63,15 +60,13 @@ function setValue(library) {
   bookContainer.append(...bookElements);
 }
 
-
-
 function populateStorage() {
   let library1;
   if (localStorage.getItem('storeddata')) {
     library1 = new Library();
     const t = localStorage.getItem('storeddata');
     const data = JSON.parse(t);
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length; i += 1) {
       const bookData = new Book(data[i].title, data[i].author);
       library1.addBook(bookData);
     }
@@ -87,18 +82,16 @@ function populateStorage() {
   setValue(library1);
 }
 
-
 add.addEventListener('click', () => {
   populateStorage();
 });
-
 
 let library2;
 if (localStorage.getItem('storeddata')) {
   library2 = new Library();
   const t = localStorage.getItem('storeddata');
   const data = JSON.parse(t);
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i += 1) {
     const bookData = new Book(data[i].title, data[i].author);
     library2.addBook(bookData);
   }
