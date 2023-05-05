@@ -91,7 +91,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live](https://amanuelbelete95.github.io/awesome-books/src/)
+- [live](https://amanuelbelete95.github.io/awesome-books/)
 
 <!-- GETTING STARTED -->
 
